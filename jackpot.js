@@ -1,15 +1,14 @@
-function solucao(numero, x) {
-    let resto=numero%x
-	if(resto===0){
+function solucao(resultado1, resultado2, resultado3) {
+	if(resultado1==resultado2&&resultado1==resultado3&&resultado2==resultado3){
         console.log(true)
     }else{
         console.log(false)
-    }
+    }    
 }
 
 function processData(input) {
-  const [numero, x] = input.split(" ");
-  solucao(parseInt(numero), parseInt(x));
+    const [resultado1, resultado2, resultado3] = input.split(" ");
+  	solucao(resultado1, resultado2, resultado3);
 }
 
 process.stdin.resume();
