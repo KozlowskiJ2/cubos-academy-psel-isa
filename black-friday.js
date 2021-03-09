@@ -1,5 +1,3 @@
-
-
 function solucao(produtos, valorMaximo, avaliacaoMinima) {
     let lista=[]
  for(i=0;i<produtos.length;i++){
